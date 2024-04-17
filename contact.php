@@ -135,20 +135,13 @@
         </div>
       </div>
     </nav>
-    <!-- End Navbar -->
+   >
 	 	
   <section class="section section-shaped section-lg">
     <div class="shape shape-style-1 shape-primary">
       <span></span>
       <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
+   
     </div>
 	
 	
@@ -157,7 +150,7 @@
             <div class="max-w-screen-xl px-8 grid gap-8 grid-cols-1 md:grid-cols-2 md:px-12 lg:px-16 xl:px-32 py-16 mx-auto bg-gray-100 text-gray-900 rounded-lg shadow-lg">
                 <div class="flex flex-col justify-between">
                     <div class="mt-2">
-                        <h2 class="text-4xl lg:text-5xl font-bold leading-tight">Lets talk about everything!</h2>
+                        <h2 class="text-4xl lg:text-5xl font-bold leading-tight">Lets chat and discuss about everything!</h2>
                     </div>
                     <div class="mt-2">
                         <span class="uppercase text-sm text-gray-600 font-bold">Full Name</span>
@@ -195,17 +188,17 @@
     <div class="modal fade" id="mysuccessModal" data-backdrop="static" style="position: fixed;width: 100%;height: 100%;overflow: auto;background-color: rgb(0,0,0);background-color: rgba(0,0,0,0.4);">
         <div class="modal-dialog modal-lg modal-dialog-centered">
             <div class="modal-content" style="position: relative;margin: auto;padding: 0;border: 1px solid #888;width: 100%;box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);">
-                <!-- Modal Header -->
+              
                 <div class="modal-header" style="background-color: #1A4E85;color: white;">
                     <h4 class="modal-title">Message</h4>
                     <button type="button" class="close" onclick="pagesuccessRedirect()">&times;</button>
                 </div>
-                <!-- Modal body -->
+                
                 <div class="modal-body">
                     <h3>Thank you for contacting us.</h3>
                     <h6>You are very important to us, all information received will always remain confidential. We will contact you as soon as we review your message.</h6>
                 </div>
-                <!-- Modal footer -->
+             
                 <div class="modal-footer" style="padding:2px 16px;background-color: #1A4E85;color: white;">
                     <button type="button" class="btn btn-danger" onclick="pagesuccessRedirect()">Close</button>
                 </div>
@@ -216,16 +209,16 @@
     <div class="modal fade" id="myunsuccessModal" data-backdrop="static" style="position: fixed;width: 100%;height: 100%;overflow: auto;background-color: rgb(0,0,0);background-color: rgba(0,0,0,0.4);">
         <div class="modal-dialog modal-lg modal-dialog-centered">
             <div class="modal-content" style="position: relative;margin: auto;padding: 0;border: 1px solid #888;width: 100%;box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);">
-                <!-- Modal Header -->
+              
                 <div class="modal-header" style="background-color: #1A4E85;color: white;">
                     <h4 class="modal-title">Message</h4>
                     <button type="button" class="close" onclick="pageunsuccessRedirect()">&times;</button>
                 </div>
-                <!-- Modal body -->
+                
                 <div class="modal-body">
                     Error in sending message!!! Please try again.
                 </div>
-                <!-- Modal footer -->
+                
                 <div class="modal-footer" style="padding:2px 16px;background-color: #1A4E85;color: white;">
                     <button type="button" class="btn btn-danger" onclick="pageunsuccessRedirect()">Close</button>
                 </div>

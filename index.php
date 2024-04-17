@@ -144,9 +144,9 @@
         <div class="container">
           <div class="row row-header">
             <div class="col-12 col-sm-6">
-              <h1 class="text-white">Farmers & Customers Portal </h1>
+              <h1 class="text-white">Farmers & Customers Portal</h1>
               <p class="text-white">
-               A True Farmer's Friend.
+               <b>Great Farmer/Customer FRIEND</b>
               </p>
               <p><b> <h2>Market site</h2></b></p>
               <div class="cg">
@@ -174,8 +174,6 @@
         </div>
       </header>
 <!-- Page Content -->
-
-<!-- ======================================================================================================================================== -->
 
     <div class="section features-6 text-dark bg-white" id="services">
       <div class="container ">
@@ -228,11 +226,6 @@
    </div>
       </div>
     </div>
-
-
-     
-<!-- ======================================================================================================================================== -->
-
       <div class="section features-2 text-dark bg-white" id="features"> 
         <div class="container"> 
           <div class="row align-items-center"> 
@@ -297,10 +290,7 @@
         </div>
         <span > </span>
       </div>
-     
-	<!-- ======================================================================================================================================== -->
- 
-	 
+
 
  <div class="section features-6 text-dark bg-white" id="tech">
         <div class="container-fluid shado">
