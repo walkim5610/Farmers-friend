@@ -1,0 +1,132 @@
+.icon {
+  display: inline-block;
+  color: #111111;  
+  height: 1em;
+  width: 1em;
+}
+
+.icon use {
+  fill: #7ea6f6; 
+}
+
+.icon.icon-outline use {
+  stroke: #7ea6f6; 
+}
+
+.icon-xs {
+  height: 0.5em;
+  width: 0.5em;
+}
+
+.icon-sm {
+  height: 0.8em;
+  width: 0.8em;
+}
+
+.icon-lg {
+  height: 1.6em;
+  width: 1.6em;
+}
+
+.icon-xl {
+  height: 2em;
+  width: 2em;
+}
+
+.icon-text-aligner {
+  display: flex;
+  align-items: center; /
+}
+
+.icon-text-aligner .icon {
+  color: inherit;
+  margin-right: 0.4em;
+}
+
+.icon-text-aligner .icon use {
+  color: inherit;
+  fill: currentColor;
+}
+
+.icon-text-aligner .icon.icon-outline use {
+  stroke: currentColor;
+}
+
+.icon {
+  fill: currentColor; 
+  stroke: none;
+}
+
+.icon.icon-outline {
+  fill: none;
+  stroke: currentColor;
+}
+
+.icon use {
+  stroke: none;
+}
+
+.icon.icon-outline use {
+  fill: none;
+}
+
+.icon-outline.icon-stroke-1 {
+  stroke-width: 1px;
+}
+
+.icon-outline.icon-stroke-2 {
+  stroke-width: 2px;
+}
+
+.icon-outline.icon-stroke-3 {
+  stroke-width: 3px;
+}
+
+.icon-outline.icon-stroke-4 {
+  stroke-width: 4px;
+}
+
+.icon-outline.icon-stroke-1 use,
+.icon-outline.icon-stroke-3 use {
+  -webkit-transform: translateX(0.5px) translateY(0.5px);
+  -moz-transform: translateX(0.5px) translateY(0.5px);
+  -ms-transform: translateX(0.5px) translateY(0.5px);
+  -o-transform: translateX(0.5px) translateY(0.5px);
+  transform: translateX(0.5px) translateY(0.5px);
+}
+
+#toTopBtn {
+    position: fixed;
+    bottom: 56px;
+    right: 39px;
+    z-index: 98;
+    padding: 21px;
+    background-color: hsla(5, 76%, 62%, .8);
+}
+
+.js .cd-top--fade-out {
+    opacity: .5;
+}
+
+.js .cd-top--is-visible {
+    visibility: visible;
+    opacity: 1;
+}
+
+.js .cd-top {
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .3s, visibility .3s, background-color .3s;
+}
+
+.cd-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5) !important;
+    background: url(https://res.cloudinary.com/dxfq3iotg/image/upload/v1571057658/cd-top-arrow.svg) no-repeat center 50%;
+    background-color: hsla(5, 76%, 62%, .8);
+}
