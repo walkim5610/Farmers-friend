@@ -1,0 +1,42 @@
+[
+    {
+        "id": 184745,
+        "name": "Nairobi",
+        "state": "",
+        "country": "KE",
+        "coord": {
+            "lon": 36.8219,
+            "lat": -1.2864
+        }
+    },
+    {
+        "id": 232422,
+        "name": "Kampala",
+        "state": "",
+        "country": "UG",
+        "coord": {
+            "lon": 32.5825,
+            "lat": 0.3476
+        }
+    },
+    {
+        "id": 2332459,
+        "name": "Lagos",
+        "state": "",
+        "country": "NG",
+        "coord": {
+            "lon": 3.3792,
+            "lat": 6.5244
+        }
+    },
+    {
+        "id": 3369157,
+        "name": "Johannesburg",
+        "state": "",
+        "country": "ZA",
+        "coord": {
+            "lon": 28.0473,
+            "lat": -26.2041
+        }
+    }
+]
